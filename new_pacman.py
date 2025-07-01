@@ -83,7 +83,7 @@ fig, ax = plt.subplots(figsize=(8, 8))
 plot_shape(ax, accessible_union, color='green', alpha=0.4)
 #plot_shape(ax, pacman1, color='yellow', alpha=0.95)
 #plot_shape (ax, pac3, color = 'red', alpha = 0.7)
-plot_shape (ax, pac4, color = 'blue', alpha = 0.5)
+plot_shape (ax, pacman1, color = 'blue', alpha = 0.5)
 
 ax.set_title("Reachable Area (Green) vs Fixed Pac-Man (Yellow)")
 ax.set_aspect('equal')
